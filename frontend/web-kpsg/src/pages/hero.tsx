@@ -1,7 +1,7 @@
 import { useState } from "react";
 import wosm from "../assets/images/logo/wosm-purple.png";
 
-function hero() {
+function Hero() {
   const [isAsideOpen, setAsideOpen] = useState(false);
 
   const toggleAside = () => {
@@ -192,4 +192,4 @@ function hero() {
   );
 }
 
-export default hero;
+export default Hero;
