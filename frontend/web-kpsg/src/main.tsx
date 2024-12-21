@@ -5,11 +5,13 @@ import "./index.css";
 import Hero from "./pages/hero";
 import Feature from "./pages/Feature";
 import Story from "./pages/Story";
+import People from "./pages/People";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Hero />
-    <Feature/>
-    <Story/>
+    <Feature />
+    <Story />
+    <People />
   </StrictMode>
 );
