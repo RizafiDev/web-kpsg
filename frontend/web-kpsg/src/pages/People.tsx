@@ -1,22 +1,23 @@
 import raicab from "../assets/images/events/raicab.jpg";
+
 function People() {
   return (
-    <main className="container mx-auto flex flex-col items-center  lg:px-32 py-8 px-7 w-full ">
+    <main className="container mx-auto flex flex-col items-center lg:px-32 py-8 px-7 w-full">
       <header>
         <h1 className="text-3xl font-semibold text-custom_purple text-center">
           Keanggotaan Kami
         </h1>
       </header>
-      <ul className="flex flex-col lg:flex-row gap-80 lg:gap-6 w-full my-6 items-center justify-center">
-        <li className="relative">
-          <div className="bg max-w-[350px] h-60 ">
+      <ul className="flex flex-col lg:flex-row gap-12 lg:gap-6 w-full my-6 items-startjustify-center">
+        <li className="flex flex-col">
+          <div className="bg max-w-[350px] h-60">
             <img
               src={raicab}
               alt=""
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-          <div className="article max-w-72 flex flex-col items-start gap-4 p-8 bg-custom_white absolute top-48">
+          <div className="article max-w-72 flex flex-col items-start gap-4 p-8 bg-custom_white -mt-24 rounded-lg shadow-md">
             <h1 className="text-xl font-medium text-cyan-600">
               Organisasi
               <br />
@@ -28,15 +29,15 @@ function People() {
             </p>
           </div>
         </li>
-        <li className="relative">
-          <div className="bg max-w-[350px] h-60 ">
+        <li className="flex flex-col">
+          <div className="bg max-w-[350px] h-60">
             <img
               src={raicab}
               alt=""
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-          <div className="article max-w-72 flex flex-col items-start gap-4 p-8 bg-custom_white absolute top-48">
+          <div className="article max-w-72 flex flex-col items-start gap-4 p-8 bg-custom_white -mt-24 rounded-lg shadow-md">
             <h1 className="text-xl font-medium text-cyan-600">
               Organisasi
               <br />
@@ -49,15 +50,15 @@ function People() {
             </p>
           </div>
         </li>
-        <li className="relative">
-          <div className="bg max-w-[350px] h-60 ">
+        <li className="flex flex-col">
+          <div className="bg max-w-[350px] h-60">
             <img
               src={raicab}
               alt=""
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-          <div className="article max-w-72 flex flex-col items-start gap-4 p-8 bg-custom_white absolute top-48">
+          <div className="article max-w-72 flex flex-col items-start gap-4 p-8 bg-custom_white -mt-24 rounded-lg shadow-md">
             <h1 className="text-xl font-medium text-cyan-600">
               Pasukan
               <br />
@@ -69,15 +70,15 @@ function People() {
             </p>
           </div>
         </li>
-        <li className="relative">
-          <div className="bg max-w-[350px] h-60 ">
+        <li className="flex flex-col">
+          <div className="bg max-w-[350px] h-60">
             <img
               src={raicab}
               alt=""
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-          <div className="article max-w-72 flex flex-col items-start gap-4 p-8 bg-custom_white absolute top-48">
+          <div className="article max-w-72 flex flex-col items-start gap-4 p-8 bg-custom_white -mt-24 rounded-lg shadow-md">
             <h1 className="text-xl font-medium text-cyan-600">
               Anggota
               <br />
@@ -94,4 +95,5 @@ function People() {
     </main>
   );
 }
+
 export default People;
